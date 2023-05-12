@@ -8,7 +8,7 @@ const path = require("path");
 // database
 const db = require("./db/db.json");
 // uuid = unique id
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require("uuid");
 // port & app set up/initialization
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -52,7 +52,7 @@ app.post("/api/notes", (req, res) => {
   res.json(newNoteState);
 });
 // api delete notes
-app.delete("/api/notes/id:", (req, res) => {
+app.delete("/api/notes/:id", (req, res) => {
   const id = req.params.id;
   for (let i = 0; i < db.length; i++) {
     if (db[i].id === id) {
