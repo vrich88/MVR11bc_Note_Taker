@@ -8,7 +8,7 @@ This repository is used to generate a webpage that you can write and save Notes 
 ## Usage
 
 In order to use the application go to:
-[Deployed application](https://aqueous-lowlands-26468.herokuapp.com/notes)
+[Deployed application](https://aqueous-lowlands-26468.herokuapp.com)
 To use this Note Taker simply click the "+" in the top right for a new note and type your "Title" in the above space and whatever details you want to in this space. Then hit the floppy disk save icon in the top right to save your new note for future reference. Then if you decide to delete it you can click on the trash can in the left column next to the note titles to delete it.<br>
 ![screenshot](./images/Screenshot2.png)
 
